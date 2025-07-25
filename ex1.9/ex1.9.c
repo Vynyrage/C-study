@@ -21,9 +21,10 @@ int main ( void )
 	
 	printf ( "\n" );
 	
-	//processo
+	//processamento
 	area = (base * altura) / 2;
 	
+	//saida
 	printf ( "Area = %d\n", area );
 	
 	return 0;
