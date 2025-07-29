@@ -10,15 +10,20 @@ int main ( void )
 	float raioDoCirculo;
 	float pi = 3.141592;
 	
+	printf ( "\n" );
+	
 	printf ( "Valor do raio do circulo " );
 	scanf ( "%f", &raioDoCirculo );
 	
+	printf ( "\n" );
+	
 	diametro = raioDoCirculo * 2;
 	circunferencia = ( pi * raioDoCirculo ) * 2;
-	area = ( pi * raioDoCirculo ) + 2;
+	area = pi * raioDoCirculo * raioDoCirculo;
 	
-	printf ( "Diametro = %.2f\n", diametro );
-	printf ( "Circuferencia = %.2f\n", circunferencia );
+	
+	printf ( "Diametro = %.2f\n\n", diametro );
+	printf ( "Circunferencia = %.2f\n\n", circunferencia );
 	printf ( "Area = %.2f\n", area );
 	
 	return 0;
