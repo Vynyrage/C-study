@@ -4,18 +4,16 @@
 int main ( void )
 {
 	
-	float valor;
+	float value;
 	
 	printf ( "Insira um valor w/e: " );
-	scanf ( "#f", &valor );
+	scanf ( "%f", &value );
 	
-	valor = valor;
+	printf ( "%f\n", value );
 	
-	printf ( "%f\n", valor );
+	printf ( "%.2f\n", value );
 	
-	printf ( "%.2f\n", valor );
-	
-	printf ( "%.3f\n", valor );
+	printf ( "%.3f\n", value );
 	
 	return 0;
 }
